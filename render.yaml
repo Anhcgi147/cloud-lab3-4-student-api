@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cloud-lab3-4-student-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
