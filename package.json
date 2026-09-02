@@ -1,0 +1,19 @@
+{
+  "name": "cloud-lab3-4-student-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REST API demo for Cloud Computing LAB 3 (GHCR) and LAB 4 (Render + MongoDB Atlas)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.19.1"
+  }
+}
